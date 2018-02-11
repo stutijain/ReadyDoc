@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.charugoel.readydoc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientLogin"
+            android:parentActivityName=".First" />
+        <activity
+            android:name=".DoctorLogin"
+            android:parentActivityName=".First" />
+        <activity
+            android:name=".DocRegistration"
+            android:parentActivityName=".DoctorLogin" />
+        <activity
+            android:name=".PatRegistration"
+            android:parentActivityName=".PatientLogin" />
+        <activity
+            android:name=".ReadyDocPage"
+            android:parentActivityName=".PatRegistration" />
+        <activity
+            android:name=".FAQS"
+            android:parentActivityName=".ReadyDocPage" />
+        <activity
+            android:name=".FAQ1"
+            android:parentActivityName=".FAQS" />
+        <activity
+            android:name=".FAQ2"
+            android:parentActivityName=".FAQS" />
+        <activity
+            android:name=".HomeRemedies"
+            android:parentActivityName=".ReadyDocPage" />
+        <activity
+            android:name=".QA"
+            android:parentActivityName=".ReadyDocPage" />
+        <activity
+            android:name=".Reminder"
+            android:parentActivityName=".ReadyDocPage" />
+        <activity
+            android:name=".Diseases"
+            android:parentActivityName=".ReadyDocPage" />
+        <activity android:name=".ReadyDoc2" />
+        <activity android:name=".Department" />
+        <activity android:name=".account" />
+        <activity android:name=".physician" />
+        <activity android:name=".DoctorMain"></activity>
+
+        <receiver android:name=".AlarmReceiver"/>
+        <service android:name=".RingtonePlayingService"
+            android:enabled="true">
+        </service>
+
+    </application>
+
+</manifest>

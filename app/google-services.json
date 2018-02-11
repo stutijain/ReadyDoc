@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "429358941424",
+    "firebase_url": "https://readydoc-5f9eb.firebaseio.com",
+    "project_id": "readydoc-5f9eb",
+    "storage_bucket": "readydoc-5f9eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429358941424:android:90d2298d2408766e",
+        "android_client_info": {
+          "package_name": "com.example.charugoel.readydoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429358941424-290kb08ttgsj7v3s5maqbtk4t4uv089m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uDFhWkxcVeAWbIAYpdG5UB0tu4WZ730"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
